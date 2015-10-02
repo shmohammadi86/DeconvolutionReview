@@ -1,0 +1,4 @@
+Reference_ID	Subclass	Class	Type
+Liver	Liver	Liver	Liver
+Brain	Brain	Brain	Brain
+Lung	Lung	Lung	Lung

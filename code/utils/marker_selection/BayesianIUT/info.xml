@@ -1,0 +1,19 @@
+<productinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="optional">
+<?xml-stylesheet type="text/xsl" href="optional"?>
+
+<matlabrelease>NaN</matlabrelease>
+<name>BayesianIUT</name>
+<type>matlab</type>
+<icon>$toolbox/matlab/general/matlabicon.gif</icon>
+
+<list>
+
+<listitem>
+<label>Help</label>
+<callback>helpwin BayesianIUT/</callback>
+<icon>$toolbox/matlab/general/bookicon.gif</icon>
+</listitem>
+
+</list>
+
+</productinfo>

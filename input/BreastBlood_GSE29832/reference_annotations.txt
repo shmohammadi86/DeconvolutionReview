@@ -1,0 +1,3 @@
+Reference_ID	Subclass	Class	Type
+Blood	Blood	Blood	Blood
+Breast	Breast	Breast	Breast

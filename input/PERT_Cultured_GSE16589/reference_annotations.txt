@@ -1,0 +1,12 @@
+Reference_ID	Celltype	Subclass	Class	Markers	Type
+BASO	Basophil	BASO	BASO	FSChi SSClo CD22+ CD123+ CD33+/- CD45dim	BASO
+CMP	Common Myeloid Progenitor	CMP	CMP	CD34+ CD38+ IL-3Rlo CD45RA- 	CMP
+EOS	Eosinophil	EOS	EOS	FSChi SSClo IL3-R+ CD33dim+ 	EOS
+ERY	Erythroid	ERY	ERY	CD34- CD71- GlyA+ 	ERY
+GMP	Granulocyte-Monocyte Progenitor	GMP	GMP	CD34+ CD38+ IL-3Rlo CD45RA+ 	GMP
+GRAN	Neutrophil	GRAN	GRAN	FSChi SSChi CD16+ CD11b+ 	GRAN
+HSC	Hematopoietic Stem Cell	HSC	HSC	CD133+ CD34dim 	HSC
+MEGA	Megakaryocyte	MEGA	MEGA	CD34- CD41+ CD61+ CD45- 	MEGA
+MEP	Megakaryocyte/Erythroid Progenitor	MEP	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP
+MONO	Monocyte	MONO	MONO	FSChi SSClo CD14+ CD45dim 	MONO
+PREB	Pro-B Cells	PREB	PREB	CD34- CD10+ CD19+ 	PREB

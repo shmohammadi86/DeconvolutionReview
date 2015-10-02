@@ -1,0 +1,5 @@
+Reference_ID	Subclass	Class	Type
+Neuronal	Neuronal	Neuronal	Neuronal
+Astrocytic	Astrocytic	Astrocytic	Astrocytic
+Oligodendrocytic	Oligodendrocytic	Oligodendrocytic	Oligodendrocytic
+Microglial	Microglial	Microglial	Microglial

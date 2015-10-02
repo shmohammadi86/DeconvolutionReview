@@ -1,0 +1,5 @@
+Reference_ID	Subclass	Class	Type
+Jurkat	Jurkat	T	Jurkat
+IM-9	IM-9	B	IM-9
+Raji	Raji	B	Raji
+THP-1	THP-1	Monocyte	THP-1

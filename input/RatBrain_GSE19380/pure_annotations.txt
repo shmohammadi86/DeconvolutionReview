@@ -1,0 +1,17 @@
+GEO_ID	Class
+GSM480943	Neuronal
+GSM480944	Neuronal
+GSM480945	Neuronal
+GSM480946	Neuronal
+GSM480947	Astrocytic
+GSM480948	Astrocytic
+GSM480949	Astrocytic
+GSM480950	Astrocytic
+GSM480951	Oligodendrocytic
+GSM480952	Oligodendrocytic
+GSM480953	Oligodendrocytic
+GSM480954	Oligodendrocytic
+GSM480955	Microglial
+GSM480956	Microglial
+GSM480957	Microglial
+GSM480958	Microglial

@@ -1,0 +1,119 @@
+Reference_ID	Celltype	Subclass	Class	Markers	Type
+BASO_1	Basophil	BASO1 	BASO	FSChi SSClo CD22+ CD123+ CD33+/- CD45dim	BASO1 
+BASO_2	Basophil	BASO1 	BASO	FSChi SSClo CD22+ CD123+ CD33+/- CD45dim	BASO1 
+BASO_3	Basophil	BASO1 	BASO	FSChi SSClo CD22+ CD123+ CD33+/- CD45dim	BASO1 
+BASO_4	Basophil	BASO1 	BASO	FSChi SSClo CD22+ CD123+ CD33+/- CD45dim	BASO1 
+BASO_5	Basophil	BASO1 	BASO	FSChi SSClo CD22+ CD123+ CD33+/- CD45dim	BASO1 
+BASO_6	Basophil	BASO1 	BASO	FSChi SSClo CD22+ CD123+ CD33+/- CD45dim	BASO1 
+CMP_1	Common Myeloid Progenitor	CMP 	CMP	CD34+ CD38+ IL-3Rlo CD45RA- 	CMP 
+CMP_2	Common Myeloid Progenitor	CMP 	CMP	CD34+ CD38+ IL-3Rlo CD45RA- 	CMP 
+CMP_3	Common Myeloid Progenitor	CMP 	CMP	CD34+ CD38+ IL-3Rlo CD45RA- 	CMP 
+CMP_4	Common Myeloid Progenitor	CMP 	CMP	CD34+ CD38+ IL-3Rlo CD45RA- 	CMP 
+EOS_1	Eosinophil	EOS2 	EOS	FSChi SSClo IL3-R+ CD33dim+ 	EOS2 
+EOS_2	Eosinophil	EOS2 	EOS	FSChi SSClo IL3-R+ CD33dim+ 	EOS2 
+EOS_3	Eosinophil	EOS2 	EOS	FSChi SSClo IL3-R+ CD33dim+ 	EOS2 
+EOS_4	Eosinophil	EOS2 	EOS	FSChi SSClo IL3-R+ CD33dim+ 	EOS2 
+EOS_5	Eosinophil	EOS2 	EOS	FSChi SSClo IL3-R+ CD33dim+ 	EOS2 
+ERY1_1	Erythroid	ERY1 	ERY	CD34+ CD71+ GlyA- 	ERY1 
+ERY1_2	Erythroid	ERY1 	ERY	CD34+ CD71+ GlyA- 	ERY1 
+ERY1_3	Erythroid	ERY1 	ERY	CD34+ CD71+ GlyA- 	ERY1 
+ERY1_4	Erythroid	ERY1 	ERY	CD34+ CD71+ GlyA- 	ERY1 
+ERY1_5	Erythroid	ERY1 	ERY	CD34+ CD71+ GlyA- 	ERY1 
+ERY1_6	Erythroid	ERY1 	ERY	CD34+ CD71+ GlyA- 	ERY1 
+ERY1_7	Erythroid	ERY1 	ERY	CD34+ CD71+ GlyA- 	ERY1 
+ERY2_1	Erythroid	ERY2 	ERY	CD34- CD71+ GlyA- 	ERY2 
+ERY2_2	Erythroid	ERY2 	ERY	CD34- CD71+ GlyA- 	ERY2 
+ERY2_3	Erythroid	ERY2 	ERY	CD34- CD71+ GlyA- 	ERY2 
+ERY2_4	Erythroid	ERY2 	ERY	CD34- CD71+ GlyA- 	ERY2 
+ERY2_5	Erythroid	ERY2 	ERY	CD34- CD71+ GlyA- 	ERY2 
+ERY2_6	Erythroid	ERY2 	ERY	CD34- CD71+ GlyA- 	ERY2 
+ERY2_7	Erythroid	ERY2 	ERY	CD34- CD71+ GlyA- 	ERY2 
+ERY3_1	Erythroid	ERY3 	ERY	CD34- CD71+ GlyA+ 	ERY3 
+ERY3_2	Erythroid	ERY3 	ERY	CD34- CD71+ GlyA+ 	ERY3 
+ERY3_3	Erythroid	ERY3 	ERY	CD34- CD71+ GlyA+ 	ERY3 
+ERY3_4	Erythroid	ERY3 	ERY	CD34- CD71+ GlyA+ 	ERY3 
+ERY3_5	Erythroid	ERY3 	ERY	CD34- CD71+ GlyA+ 	ERY3 
+ERY3_6	Erythroid	ERY3 	ERY	CD34- CD71+ GlyA+ 	ERY3 
+ERY4_1	Erythroid	ERY4 	ERY	CD34- CD71lo GlyA+ 	ERY4 
+ERY4_2	Erythroid	ERY4 	ERY	CD34- CD71lo GlyA+ 	ERY4 
+ERY4_3	Erythroid	ERY4 	ERY	CD34- CD71lo GlyA+ 	ERY4 
+ERY4_4	Erythroid	ERY4 	ERY	CD34- CD71lo GlyA+ 	ERY4 
+ERY4_5	Erythroid	ERY4 	ERY	CD34- CD71lo GlyA+ 	ERY4 
+ERY4_6	Erythroid	ERY4 	ERY	CD34- CD71lo GlyA+ 	ERY4 
+ERY4_7	Erythroid	ERY4 	ERY	CD34- CD71lo GlyA+ 	ERY4 
+ERY5_1	Erythroid	ERY5 	ERY	CD34- CD71- GlyA+ 	ERY5 
+ERY5_2	Erythroid	ERY5 	ERY	CD34- CD71- GlyA+ 	ERY5 
+ERY5_3	Erythroid	ERY5 	ERY	CD34- CD71- GlyA+ 	ERY5 
+ERY5_4	Erythroid	ERY5 	ERY	CD34- CD71- GlyA+ 	ERY5 
+ERY5_5	Erythroid	ERY5 	ERY	CD34- CD71- GlyA+ 	ERY5 
+ERY5_6	Erythroid	ERY5 	ERY	CD34- CD71- GlyA+ 	ERY5 
+GMP_1	Granulocyte-Monocyte Progenitor	GMP 	GMP	CD34+ CD38+ IL-3Rlo CD45RA+ 	GMP 
+GMP_2	Granulocyte-Monocyte Progenitor	GMP 	GMP	CD34+ CD38+ IL-3Rlo CD45RA+ 	GMP 
+GMP_3	Granulocyte-Monocyte Progenitor	GMP 	GMP	CD34+ CD38+ IL-3Rlo CD45RA+ 	GMP 
+GMP_4	Granulocyte-Monocyte Progenitor	GMP 	GMP	CD34+ CD38+ IL-3Rlo CD45RA+ 	GMP 
+GRAN1_1	Colony Forming Unit-Granulocyte (CFU-G)	GRAN1 	GRAN	CD34- SSChi CD45+ CD11b- CD16- 	GRAN1 
+GRAN1_2	Colony Forming Unit-Granulocyte (CFU-G)	GRAN1 	GRAN	CD34- SSChi CD45+ CD11b- CD16- 	GRAN1 
+GRAN1_3	Colony Forming Unit-Granulocyte (CFU-G)	GRAN1 	GRAN	CD34- SSChi CD45+ CD11b- CD16- 	GRAN1 
+GRAN1_4	Colony Forming Unit-Granulocyte (CFU-G)	GRAN1 	GRAN	CD34- SSChi CD45+ CD11b- CD16- 	GRAN1 
+GRAN1_5	Colony Forming Unit-Granulocyte (CFU-G)	GRAN1 	GRAN	CD34- SSChi CD45+ CD11b- CD16- 	GRAN1 
+GRAN2_1	Neutrophilic Metamyelocyte	GRAN2 	GRAN	CD34- SSChi CD45+ CD11b+ CD16- 	GRAN2 
+GRAN2_2	Neutrophilic Metamyelocyte	GRAN2 	GRAN	CD34- SSChi CD45+ CD11b+ CD16- 	GRAN2 
+GRAN2_3	Neutrophilic Metamyelocyte	GRAN2 	GRAN	CD34- SSChi CD45+ CD11b+ CD16- 	GRAN2 
+GRAN2_4	Neutrophilic Metamyelocyte	GRAN2 	GRAN	CD34- SSChi CD45+ CD11b+ CD16- 	GRAN2 
+GRAN3_1	Neutrophil	GRAN3 	GRAN	FSChi SSChi CD16+ CD11b+ 	GRAN3 
+GRAN3_2	Neutrophil	GRAN3 	GRAN	FSChi SSChi CD16+ CD11b+ 	GRAN3 
+GRAN3_3	Neutrophil	GRAN3 	GRAN	FSChi SSChi CD16+ CD11b+ 	GRAN3 
+GRAN3_4	Neutrophil	GRAN3 	GRAN	FSChi SSChi CD16+ CD11b+ 	GRAN3 
+HSC1_1	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_10	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_2	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_3	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_4	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_5	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_6	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_7	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_8	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC1_9	Hematopoietic Stem Cell	HSC1 	HSC	CD133+ CD34dim 	HSC1 
+HSC2_1	Hematopoietic Stem Cell	HSC2 	HSC	CD38- CD34+ 	HSC2 
+HSC2_2	Hematopoietic Stem Cell	HSC2 	HSC	CD38- CD34+ 	HSC2 
+HSC2_3	Hematopoietic Stem Cell	HSC2 	HSC	CD38- CD34+ 	HSC2 
+HSC2_4	Hematopoietic Stem Cell	HSC2 	HSC	CD38- CD34+ 	HSC2 
+MEGA1_1	Colony Forming Unit-Megakaryocytic (CFU-MK)	MEGA1 	MEGA	CD34+ CD41+ CD61+ CD45- 	MEGA1 
+MEGA1_2	Colony Forming Unit-Megakaryocytic (CFU-MK)	MEGA1 	MEGA	CD34+ CD41+ CD61+ CD45- 	MEGA1 
+MEGA1_3	Colony Forming Unit-Megakaryocytic (CFU-MK)	MEGA1 	MEGA	CD34+ CD41+ CD61+ CD45- 	MEGA1 
+MEGA1_4	Colony Forming Unit-Megakaryocytic (CFU-MK)	MEGA1 	MEGA	CD34+ CD41+ CD61+ CD45- 	MEGA1 
+MEGA1_5	Colony Forming Unit-Megakaryocytic (CFU-MK)	MEGA1 	MEGA	CD34+ CD41+ CD61+ CD45- 	MEGA1 
+MEGA2_1	Megakaryocyte	MEGA2 	MEGA	CD34- CD41+ CD61+ CD45- 	MEGA2 
+MEGA2_2	Megakaryocyte	MEGA2 	MEGA	CD34- CD41+ CD61+ CD45- 	MEGA2 
+MEGA2_3	Megakaryocyte	MEGA2 	MEGA	CD34- CD41+ CD61+ CD45- 	MEGA2 
+MEGA2_4	Megakaryocyte	MEGA2 	MEGA	CD34- CD41+ CD61+ CD45- 	MEGA2 
+MEGA2_5	Megakaryocyte	MEGA2 	MEGA	CD34- CD41+ CD61+ CD45- 	MEGA2 
+MEGA2_6	Megakaryocyte	MEGA2 	MEGA	CD34- CD41+ CD61+ CD45- 	MEGA2 
+MEGA2_7	Megakaryocyte	MEGA2 	MEGA	CD34- CD41+ CD61+ CD45- 	MEGA2 
+MEP_1	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MEP_2	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MEP_3	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MEP_4	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MEP_5	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MEP_6	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MEP_7	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MEP_8	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MEP_9	Megakaryocyte/Erythroid Progenitor	MEP 	MEP	CD34+ CD38+ IL-3R- CD45RA- 	MEP 
+MONO1_1	Colony Forming Unit-Monocyte (CFU-M)	MONO1 	MONO	CD34- CD33+ CD13+ 	MONO1 
+MONO1_2	Colony Forming Unit-Monocyte (CFU-M)	MONO1 	MONO	CD34- CD33+ CD13+ 	MONO1 
+MONO1_3	Colony Forming Unit-Monocyte (CFU-M)	MONO1 	MONO	CD34- CD33+ CD13+ 	MONO1 
+MONO1_4	Colony Forming Unit-Monocyte (CFU-M)	MONO1 	MONO	CD34- CD33+ CD13+ 	MONO1 
+MONO2_1	Monocyte	MONO2 	MONO	FSChi SSClo CD14+ CD45dim 	MONO2 
+MONO2_2	Monocyte	MONO2 	MONO	FSChi SSClo CD14+ CD45dim 	MONO2 
+MONO2_3	Monocyte	MONO2 	MONO	FSChi SSClo CD14+ CD45dim 	MONO2 
+MONO2_4	Monocyte	MONO2 	MONO	FSChi SSClo CD14+ CD45dim 	MONO2 
+MONO2_5	Monocyte	MONO2 	MONO	FSChi SSClo CD14+ CD45dim 	MONO2 
+PREB2_1	Early B Cells	PREB1	PREB	CD34+ CD10+ CD19+ 	PREB1
+PREB2_2	Early B Cells	PREB1	PREB	CD34+ CD10+ CD19+ 	PREB1
+PREB2_3	Early B Cells	PREB1	PREB	CD34+ CD10+ CD19+ 	PREB1
+PREB2_4	Early B Cells	PREB1	PREB	CD34+ CD10+ CD19+ 	PREB1
+PREB3_1	Pro-B Cells	PREB2	PREB	CD34- CD10+ CD19+ 	PREB2
+PREB3_2	Pro-B Cells	PREB2	PREB	CD34- CD10+ CD19+ 	PREB2
+PREB3_3	Pro-B Cells	PREB2	PREB	CD34- CD10+ CD19+ 	PREB2
+PREB3_4	Pro-B Cells	PREB2	PREB	CD34- CD10+ CD19+ 	PREB2
+PREB3_5	Pro-B Cells	PREB2	PREB	CD34- CD10+ CD19+ 	PREB2

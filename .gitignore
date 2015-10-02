@@ -1,0 +1,5 @@
+code/solvers
+*.mat
+*~
+*.swp
+.dropbox
