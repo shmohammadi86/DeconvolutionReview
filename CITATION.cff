@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "DeconvolutionReview: a benchmark harness for gene expression deconvolution"
+abstract: >-
+  Reference implementation for a critical survey of gene expression
+  deconvolution. Isolates the effect of the loss function, non-negativity and
+  sum-to-one constraints, normalisation, feature selection, and regularisation
+  on deconvolution accuracy across ten benchmark datasets.
+type: software
+repository-code: "https://github.com/shmohammadi86/DeconvolutionReview"
+license: MIT
+authors:
+  - family-names: "Mohammadi"
+    given-names: "Shahin"
+    orcid: "https://orcid.org/0000-0001-7297-6907"
+  - family-names: "Zuckerman"
+    given-names: "Neta"
+  - family-names: "Goldsmith"
+    given-names: "Andrea"
+  - family-names: "Grama"
+    given-names: "Ananth"
+keywords:
+  - deconvolution
+  - cell type composition
+  - gene expression
+  - convex optimization
+  - benchmarking
+preferred-citation:
+  type: article
+  title: "A Critical Survey of Deconvolution Methods for Separating Cell Types in Complex Tissues"
+  journal: "Proceedings of the IEEE"
+  volume: 105
+  issue: 2
+  start: 340
+  end: 366
+  year: 2017
+  doi: "10.1109/JPROC.2016.2607121"
+  authors:
+    - family-names: "Mohammadi"
+      given-names: "Shahin"
+    - family-names: "Zuckerman"
+      given-names: "Neta"
+    - family-names: "Goldsmith"
+      given-names: "Andrea"
+    - family-names: "Grama"
+      given-names: "Ananth"

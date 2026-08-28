@@ -1,5 +1,13 @@
+# downloaded benchmark data
+/input/*/
+
+# solvers installed locally (CVX, etc.)
 code/solvers
+
+# MATLAB / editor / OS cruft
+*.asv
 *.mat
 *~
 *.swp
 .dropbox
+.DS_Store
