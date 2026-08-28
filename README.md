@@ -75,24 +75,33 @@ cvx_setup        % once, after installing CVX
 
 ## Data
 
-The benchmark datasets are **not** bundled: they are public GEO series, and
-redistributing them here would be both large and redundant. Download each series
-and lay it out under `input/` as described in [`input/README.md`](input/README.md).
+The benchmark datasets **are bundled**, under `input/`. Seven of the nine
+datasets used in the survey ship with the repository, with their mixtures,
+reference signatures, pure profiles, annotations, and ground-truth proportions:
 
-| Dataset name | GEO accession | Tissue |
+| Dataset name | Folder | GEO accession | Tissue |
+| --- | --- | --- | --- |
+| `LiverBrainLung` | `LiverBrainLung_GSE19830` | [GSE19830](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19830) | Rat liver, brain, lung mixtures |
+| `BreastBlood` | `BreastBlood_GSE29832` | [GSE29832](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE29832) | Breast tissue and blood |
+| `CellLines`, `CellLines_minimal` | `CellLines_GSE11058` | [GSE11058](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11058) | Immune cell lines |
+| `RatBrain` | `RatBrain_GSE19380` | [GSE19380](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19380) | Rat brain cell types |
+| `Retina` | `Retina_GSE33076` | [GSE33076](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE33076) | Mouse retina |
+| `PERT_Cultured` | `PERT_Cultured_GSE16589` | [GSE16589](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE16589) | Cultured haematopoietic cells |
+| `PERT_Uncultured` | `PERT_uncultured_GSE40830` | [GSE40830](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40830) | Uncultured haematopoietic cells |
+
+Two datasets referenced by `setDatasetPaths.m` are **not** included and must be
+obtained separately if you want them:
+
+| Dataset name | Expected folder | Source |
 | --- | --- | --- |
-| `LiverBrainLung` | [GSE19830](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19830) | Rat liver, brain, lung mixtures |
-| `BreastBlood` | [GSE29832](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE29832) | Breast tissue and blood |
-| `CellLines` | [GSE11058](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11058) | Immune cell lines |
-| `RatBrain` | [GSE19380](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19380) | Rat brain cell types |
-| `MAQC` | [GSE5350](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE5350) | MAQC reference RNA titration |
-| `Retina` | [GSE33076](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE33076) | Mouse retina |
-| `PERT_Cultured` | [GSE16589](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE16589) | Cultured haematopoietic cells |
-| `PERT_Uncultured` | [GSE40830](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40830) | Uncultured haematopoietic cells |
-| `PBMC_LM22` | Alizadeh *et al.* LM22 | Peripheral blood mononuclear cells |
+| `MAQC` | `MAQC_GSE5350` | [GSE5350](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE5350), the MAQC reference RNA titration |
+| `PBMC_LM22` | `PBMC_Alizadeh` | The LM22 signature matrix of Newman, Alizadeh *et al.* |
 
-`setDatasetPaths.m` maps each name to the files it expects, so adding a dataset
-of your own means adding one `case` there.
+The bundled data is about 163 MB, so a full clone is not small. Use
+`git clone --depth 1` if you do not need the history.
+
+See [`input/README.md`](input/README.md) for the file format and the layout a
+new dataset must follow.
 
 ## Quick start
 

@@ -1,5 +1,6 @@
-# downloaded benchmark data
-/input/*/
+# datasets added locally (the seven bundled ones are tracked)
+/input/MAQC_GSE5350/
+/input/PBMC_Alizadeh/
 
 # solvers installed locally (CVX, etc.)
 code/solvers

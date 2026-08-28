@@ -1,12 +1,14 @@
 # Benchmark datasets
 
-The datasets used in the survey are public GEO series and are not redistributed
-here. Download each series and arrange it as below; `setDatasetPaths.m` expects
-exactly this layout.
+Seven of the nine datasets used in the survey ship with this repository. Two do
+not, and must be obtained separately. See the Data section of the top-level
+[README](../README.md) for the accession numbers of both groups.
+
+`setDatasetPaths.m` maps each dataset name to the files below, so adding a
+dataset of your own means creating a folder in this layout and adding one
+`case` there.
 
 ## Directory layout
-
-Each dataset lives in its own folder under `input/`, holding up to seven files:
 
 ```
 input/<DatasetName>_<GSE>/
@@ -19,27 +21,24 @@ input/<DatasetName>_<GSE>/
 └── pure_annotations.txt        # per-pure-sample annotation
 ```
 
-## Expected folder names
+`CellLines_GSE11058` additionally carries `mix_minimal.txt`, `sig_minimal.txt`,
+and `pure_minimal.txt`, the reduced version selected by the
+`CellLines_minimal` dataset name.
 
-| `setDatasetPaths` name | Folder |
+## Missing folders
+
+| Dataset name | Expected folder |
 | --- | --- |
-| `LiverBrainLung` | `LiverBrainLung_GSE19830` |
-| `BreastBlood` | `BreastBlood_GSE29832` |
-| `CellLines`, `CellLines_minimal` | `CellLines_GSE11058` |
-| `RatBrain` | `RatBrain_GSE19380` |
 | `MAQC` | `MAQC_GSE5350` |
-| `Retina` | `Retina_GSE33076` |
-| `PERT_Cultured` | `PERT_Cultured_GSE16589` |
-| `PERT_Uncultured` | `PERT_uncultured_GSE40830` |
 | `PBMC_LM22` | `PBMC_Alizadeh` |
 
 ## File format
 
-`mix.txt`, `sig.txt`, and `pure.txt` are tab-separated matrices with a header row
-of sample or cell-type identifiers and a first column of gene identifiers, read
-by `code/utils/my_tblread.m`.
+`mix.txt`, `sig.txt`, and `pure.txt` are tab-separated matrices with a header
+row of sample or cell-type identifiers and a first column of gene identifiers,
+read by `code/utils/my_tblread.m`.
 
-Two things to watch for:
+Two things to watch for when adding your own data:
 
 - **Do not log-transform.** `loadDataset` warns and applies `2^x` if the maximum
   value is at most 20, on the assumption that the matrix was log-transformed by
