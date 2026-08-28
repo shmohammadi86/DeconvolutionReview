@@ -1,5 +1,9 @@
 # Benchmark datasets
 
+> These files are stored with [Git LFS](https://git-lfs.com). Run
+> `git lfs install` before cloning, or `git lfs pull` in an existing clone,
+> or you will get pointer stubs instead of data.
+
 Seven of the nine datasets used in the survey ship with this repository. Two do
 not, and must be obtained separately. See the Data section of the top-level
 [README](../README.md) for the accession numbers of both groups.

@@ -97,8 +97,23 @@ obtained separately if you want them:
 | `MAQC` | `MAQC_GSE5350` | [GSE5350](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE5350), the MAQC reference RNA titration |
 | `PBMC_LM22` | `PBMC_Alizadeh` | The LM22 signature matrix of Newman, Alizadeh *et al.* |
 
-The bundled data is about 163 MB, so a full clone is not small. Use
-`git clone --depth 1` if you do not need the history.
+The bundled data is about 163 MB and is stored with
+[Git LFS](https://git-lfs.com), so **install Git LFS before cloning**:
+
+```bash
+# Debian / Ubuntu
+sudo apt-get install git-lfs
+# macOS
+brew install git-lfs
+
+git lfs install
+git clone https://github.com/shmohammadi86/DeconvolutionReview.git
+```
+
+Without Git LFS the files under `input/` arrive as small text pointers rather
+than data, and `loadDataset` will fail to parse them. If you have already cloned
+that way, run `git lfs install && git lfs pull` in the clone to fetch the real
+content. `git clone --depth 1` avoids downloading the history.
 
 See [`input/README.md`](input/README.md) for the file format and the layout a
 new dataset must follow.
